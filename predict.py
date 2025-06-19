@@ -11,8 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 # # Part 1: Data
 # Import data
-csv_filename = 'C:\\Users\\User\\.cache\\kagglehub\\models\\gsaha123\\diabetes-risk-assessment\\scikitLearn\\2gd\\1\\diabetes.csv'
-dataset = pd.read_csv(csv_filename)
+dataset = pd.read_csv("diabetes.csv")
 
 # data cleaning
 dataset_new = dataset
